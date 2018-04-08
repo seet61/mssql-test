@@ -1,7 +1,7 @@
 {
   "name": "mssql-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "test mssql app on node",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/seet61/mssql-test.git"
   },
-  "author": "",
+  "author": "seet61",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/seet61/mssql-test/issues"
   },
-  "homepage": "https://github.com/seet61/mssql-test#readme"
+  "homepage": "https://github.com/seet61/mssql-test#readme",
+  "dependencies": {
+    "tedious": "^2.3.1"
+  }
 }
